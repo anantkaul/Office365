@@ -3,7 +3,7 @@ To Install: (Windows only)
 
 1. [Download](https://github.com/anantkaul/Office365-Visio-Project/archive/refs/heads/main.zip) this repository.
 2. Extract `Office365-Visio-Project-main` to `C:`
-3. Run `CMD as administrator` and execute the following commands to install:
+3. Search for CMD (Command Prompt), Right-Click and `Run as administrator` and execute the following commands to install:
 ```sh
 	cd C:\Office365-Visio-Project-main
 	.\setup.exe /configure .\Configuration.xml
