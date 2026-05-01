@@ -1,4 +1,4 @@
-<Configuration ID="960deb4b-2721-42bc-abb8-b58d53834779">
+<Configuration ID="7207f7a3-e706-4e8e-9147-8dd3adc68522">
   <Add OfficeClientEdition="64" Channel="Current">
     <Product ID="O365BusinessRetail">
       <Language ID="en-us" />
@@ -22,5 +22,6 @@
   <Property Name="SCLCacheOverride" Value="0" />
   <Property Name="AUTOACTIVATE" Value="1" />
   <Updates Enabled="TRUE" />
+  <RemoveMSI />
   <Display Level="Full" AcceptEULA="TRUE" />
 </Configuration>
