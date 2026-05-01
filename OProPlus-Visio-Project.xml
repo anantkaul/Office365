@@ -22,5 +22,6 @@
   <Property Name="SCLCacheOverride" Value="0" />
   <Property Name="AUTOACTIVATE" Value="1" />
   <Updates Enabled="TRUE" />
+  <RemoveMSI />
   <Display Level="Full" AcceptEULA="TRUE" />
 </Configuration>
