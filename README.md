@@ -1,13 +1,36 @@
-# Deploy Office365-Visio-Project Professional 2024 LTSC
-To Install: (Windows only)
+Deploy Office365-Visio-Project Professional 2024 LTSC
+To Install: (Windows x64 only)
 
 1. [Download](https://github.com/anantkaul/Office365-Visio-Project/archive/refs/heads/main.zip) this repository.
 2. Extract `Office365-Visio-Project-main` to `C:`
 3. Search for CMD (Command Prompt), Right-Click and `Run as administrator` and execute the following commands to install:
+
+### _Option 1: Download Office 365 with Visio & Project_
+- Office 365 (Sign in with your account)
+- Visio (free)
+- Project (free)
 ```sh
 	cd C:\Office365-Visio-Project-main
-	.\setup.exe /configure .\Configuration.xml
+	.\setup.exe /configure .\O365-Visio-Project.xml
 ```
+
+### _Option 2: Download Office Pro Plus with Visio & Project_
+- Office Pro Plus (free)
+- Visio (free)
+- Project (free)
+```sh
+	cd C:\Office365-Visio-Project-main
+	.\setup.exe /configure .\OProPlus-Visio-Project.xml
+```
+
+### _Option 3: Download Visio & Project only_
+- Visio (free)
+- Project (free)
+```sh
+	cd C:\Office365-Visio-Project-main
+	.\setup.exe /configure .\Visio-Project.xml
+```
+
 4. Wait for the setup to install. It may take a few minutes to install.
 5. Enjoy your free Visio and Project Professional with Office 365 suite.
 
